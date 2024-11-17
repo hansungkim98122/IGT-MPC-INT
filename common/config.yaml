@@ -1,0 +1,11 @@
+data_path: /home/mpc/it-sim/data/models/2cars_test/processed_data/itsim_2car_data_processed_tpN20_mroutes_v8_sc_encoding_absolute_one_hot_10-23-2024_13-50-59.pkl
+model_path: 
+N: 10
+##Not used for training. only used for visualization
+type: test
+input_normalization: False
+one_hot_encoding: True
+include_route: False 
+hidden_size: 128
+num_layers: 3
+input_size: 6

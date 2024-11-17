@@ -1,0 +1,11 @@
+data_path: /game_theoretic_NN/dataset/processed_sc4.pkl
+model_path: /game_theoretic_NN/models/V_GT_sc4.pt
+N: 10
+##Not used for training. only used for visualization
+type: test
+input_normalization: False
+one_hot_encoding: False
+include_route: False 
+hidden_size: 128
+num_layers: 2
+input_size: 6

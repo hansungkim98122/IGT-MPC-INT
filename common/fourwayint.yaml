@@ -1,0 +1,32 @@
+render_fps: 10
+dt: 0.1 #should be 1/render_fps
+road_width: 11.4
+width_buffer: 0.2
+road_length: 50
+fillet_radius: 8.4
+crosswalk_width: 5.9 #meters
+crosswalk_length: 9.1 #meters
+ca_radius : 2.8
+num_agents: 2
+v0: 0
+v_des: 5
+
+#Vehicle parameters
+width: 2.0
+length: 4.47
+l_r: 2.235
+l_f: 2.235
+
+a_max: 3.0
+a_min: -4.0
+
+v_max: 20.0
+v_min: -2.0
+
+steering_min: -0.6
+steering_max: 0.6
+
+model: 'kinematic_frenet'
+
+nx: 4
+nu: 2

@@ -1,0 +1,20 @@
+type: MPC
+NN_type: t+N
+# NN_type: s_sequence
+input_sequence_length: 5
+# N: 10
+N: 40
+dt: 0.1
+a_min: -4
+a_max: 3
+v_min: -1.0
+v_max: 5
+
+prediction_type: constant_acceleration
+# prediction_type: constant_speed
+# collision_avoidance_type: obca 
+collision_avoidance_type: circle
+
+# Directories for the trained MLP model (Target = t+N) - partial input model
+# value_cost2go_dir: /home/mpc/it-sim/data/models/2cars_test/Value_NN_2car_model_09-20-2024_12-24-15.pt Value_NN_2car_1route_v8_sc_encoding_model_N10_10-22-2024_20-50-48.pt
+# value_cost2go_dir: /home/mpc/it-sim/data/models/2cars_test/models/Value_NN_2car_mroute_v8_sc_encoding_one_hot_model_N20_10-23-2024_15-31-50.pt
